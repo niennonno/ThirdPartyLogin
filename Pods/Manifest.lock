@@ -24,9 +24,11 @@ PODS:
   - GoogleSymbolUtilities (1.1.0)
   - GoogleUtilities (1.2.0):
     - GoogleSymbolUtilities (~> 1.0)
+  - OAuthSwift (0.5.1)
 
 DEPENDENCIES:
   - Google/SignIn
+  - OAuthSwift (~> 0.5.0)
 
 SPEC CHECKSUMS:
   Google: 61379f0072bc561a7e174d23a6cbe41bd6d8599c
@@ -37,5 +39,6 @@ SPEC CHECKSUMS:
   GoogleSignIn: 3d571172b8603be39dcb1705d8217146bb76fe62
   GoogleSymbolUtilities: eb3965ea12710569c7b80db198a39e39b18613f7
   GoogleUtilities: 85f8ad6b251544286a97163133d042ec95f889c5
+  OAuthSwift: d63f7f329f49787319a7e35974c18b10865fe636
 
 COCOAPODS: 0.39.0

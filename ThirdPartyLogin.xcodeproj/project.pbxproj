@@ -21,7 +21,7 @@
 		73F1440D1CA2D1A800CC792F /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F144091CA2D1A700CC792F /* TwitterKit.framework */; };
 		73F1440E1CA2D1A800CC792F /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73F1440A1CA2D1A700CC792F /* TwitterKitResources.bundle */; };
 		73F1440F1CA2D1A800CC792F /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F1440B1CA2D1A700CC792F /* TwitterCore.framework */; };
-		819F1C60E25A68D34C6379CA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE45C51CC7B2B0C58B79C79 /* libPods.a */; };
+		BA27EA77CA8061117BC671AF /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EFB0D16263523E4B1830F9 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 /* Begin PBXFileReference section */
 		58EE0473821267B0954DA1B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6DA559A4F0F66827685D1D20 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		6EE45C51CC7B2B0C58B79C79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		73091C3B1CA903F80047679A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		73091C3F1CA9071D0047679A /* ThirdPartyLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThirdPartyLogin-Bridging-Header.h"; sourceTree = "<group>"; };
 		73F143D61CA2D0E300CC792F /* ThirdPartyLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdPartyLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +63,7 @@
 		73F144091CA2D1A700CC792F /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
 		73F1440A1CA2D1A700CC792F /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
 		73F1440B1CA2D1A700CC792F /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		D6EFB0D16263523E4B1830F9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				73F1440C1CA2D1A700CC792F /* Fabric.framework in Frameworks */,
 				73F1440F1CA2D1A800CC792F /* TwitterCore.framework in Frameworks */,
 				73F1440D1CA2D1A800CC792F /* TwitterKit.framework in Frameworks */,
-				819F1C60E25A68D34C6379CA /* libPods.a in Frameworks */,
+				BA27EA77CA8061117BC671AF /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 		080E3976E26A2E8919FDCAA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EE45C51CC7B2B0C58B79C79 /* libPods.a */,
+				D6EFB0D16263523E4B1830F9 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
